@@ -11,3 +11,5 @@
 |Batch normalization|A technique for improving the speed, performance, and stability of artificial neural networks and used to normalize the input layer by re-centering and re-scaling|
 |Batch Size|A hyperparameter of gradient descent that controls the number of training samples to work through before the model’s internal parameters are updated.|
 |Epoch|A hyperparameter of gradient descent that controls the number of complete passes through the training dataset.|
+|Masking|Used to indicate to sequence-processing layers that certain timesteps in an input are missing, and thus should be skipped when processing the data.|
+|Padding |A special form of masking were the masked steps are at the start or at the beginning of a sequence. Padding comes from the need to encode sequence data into contiguous batches: in order to make all sequences in a batch fit a given standard length, it is necessary to pad or truncate some sequences.|
