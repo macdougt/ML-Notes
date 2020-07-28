@@ -22,7 +22,7 @@
 [Calculating Number of Parameters in a LSTM Unit & Layer](https://medium.com/@priyadarshi.cse/calculating-number-of-parameters-in-a-lstm-unit-layer-7e491978e1e4)
 
 
-### GAN (Generative Adversarial Network
+### GAN (Generative Adversarial Network)
 
 A GAN is comprised of 2 models (a discriminator and a generator)
 
