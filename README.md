@@ -20,3 +20,14 @@
 |Leaky ReLU|f(x) = x, if x > 0 and 0.01x otherwise|
 
 [Calculating Number of Parameters in a LSTM Unit & Layer](https://medium.com/@priyadarshi.cse/calculating-number-of-parameters-in-a-lstm-unit-layer-7e491978e1e4)
+
+
+### GAN (Generative Adversarial Network
+
+A GAN is comprised of 2 models (a discriminator and a generator)
+
+A generator takes input in the form of a vector of random numbers (called latent space) and generates an output (e.g. an image).
+
+Convolution networks downsample an image to a set of features. The generator will do the opposite and upsample from a set of features to generate an image. Keras exposes the Conv2DTranspose layer to help with this task. Both the Conv2D (used in convolution) and Conv2DTranspose layers use the strides parameter as contraction and expansion factor in their tranformation.
+
+
