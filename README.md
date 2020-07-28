@@ -16,5 +16,7 @@
 |Long short-term memory (LSTM)|Artificial recurrent neural network (RNN) architecture that has feedback connections. It can process both single data points (such as images), and entire sequences of data (such as speech or video). The expected input structure has 3 dimensions [samples, [timesteps](https://stackoverflow.com/a/54236050), features].|
 |Bidirectional LSTM|2 LSTMs are trained on the input sequence. The first on the input sequence as-is and the second on a reversed copy of the input sequence.|
 |TimeDistributed wrapper layer|Wraps output layer so that one value per timestep can be predicted given the full sequence provided as input. This requires that the LSTM hidden layer returns a sequence of values (one per timestep) rather than a single value for the whole input sequence.|
+|Rectified Linear Unit (ReLU)|The rectifier is an activation function defined as the positive part of its argument (i.e. f(x) = max(0,x)|
+|Leaky ReLU|f(x) = x, if x > 0 and 0.01x otherwise|
 
 [Calculating Number of Parameters in a LSTM Unit & Layer](https://medium.com/@priyadarshi.cse/calculating-number-of-parameters-in-a-lstm-unit-layer-7e491978e1e4)
