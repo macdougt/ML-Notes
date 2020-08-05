@@ -18,6 +18,7 @@
 |TimeDistributed wrapper layer|Wraps output layer so that one value per timestep can be predicted given the full sequence provided as input. This requires that the LSTM hidden layer returns a sequence of values (one per timestep) rather than a single value for the whole input sequence.|
 |Rectified Linear Unit (ReLU)|The rectifier is an activation function defined as the positive part of its argument (i.e. f(x) = max(0,x))|
 |Leaky ReLU|f(x) = x, if x > 0 and 0.01x otherwise|
+|ReduceLROnPlateau TensorFlow callback|Reduce learning rate when a metric has stopped improving|
 
 [Calculating Number of Parameters in a LSTM Unit & Layer](https://medium.com/@priyadarshi.cse/calculating-number-of-parameters-in-a-lstm-unit-layer-7e491978e1e4)
 
