@@ -19,7 +19,7 @@
 |Rectified Linear Unit (ReLU)|The rectifier is an activation function defined as the positive part of its argument (i.e. f(x) = max(0,x))|
 |Leaky ReLU|f(x) = x, if x > 0 and 0.01x otherwise|
 |ReduceLROnPlateau TensorFlow callback|Reduce learning rate when a metric has stopped improving|
-|Eager evaluation|Expressions are evaluated as soon as they are bound to a variable. Lazy evaluation has expressions evaluated only when a dependent expression is evaluated depending upon a defined evaluation strategy.|
+|Eager evaluation/execution|Expressions are evaluated as soon as they are bound to a variable. Lazy evaluation has expressions evaluated only when a dependent expression is evaluated depending upon a defined evaluation strategy.|
 
 [Calculating Number of Parameters in a LSTM Unit & Layer](https://medium.com/@priyadarshi.cse/calculating-number-of-parameters-in-a-lstm-unit-layer-7e491978e1e4)
 
