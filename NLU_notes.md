@@ -1,7 +1,7 @@
 Natural Language Understanding
 ------------------------------
 
-Here is a table of terms that I liked [reference](https://spacy.io/usage/spacy-101#features):
+Here is a table of terms that I liked [partial reference](https://spacy.io/usage/spacy-101#features):
 
 | Name   |      Description      |
 |----------|-------------|
@@ -17,3 +17,4 @@ Here is a table of terms that I liked [reference](https://spacy.io/usage/spacy-1
 | Rule-based Matching |	Finding sequences of tokens based on their texts and linguistic annotations, similar to regular expressions. |
 | Training |	Updating and improving a statistical model’s predictions. |
 | Serialization |	Saving objects to files or byte strings. |
+|Coreference resolution| task of finding all expressions that refer to the same entity in a text|
