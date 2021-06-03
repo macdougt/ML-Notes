@@ -1,5 +1,20 @@
 # ML-Notes
 
+### Musings
+
+AI or maybe only machine learning at its root is curve fitting. All phenomenon can be characterized by a function. The function may involve many parameters (features) and they may be involved by means of various functions themselves. I am not sure if the functions can involve infinite variables but I am going to venture a guess that if the universe is infinite then these functions can be as well. That being said, from a practical standpoint, it is possible that the functions described may only require few variables to accurately predict their values given an input.
+
+Choose your input space wisely (feature engineering)
+
+The other issue is that we use computers to solve the predictions which means the input must be operational. Consider NLP, the input may be a sentence and our typical models cannot really calculate using the sentence as is. So we must transform the data into vectors representing the input (create embeddings) and then feed this to our models (Q: Can a model do this work?)<sup>1</sup>
+
+
+
+explanability - all models are explanable but the explanation is almost impossible to understand.
+
+
+
+
 ### Terms
 
 | Term          | Description|
@@ -32,4 +47,6 @@ A generator takes input in the form of a vector of random numbers (called latent
 
 Convolution networks downsample an image to a set of features. The generator will do the opposite and upsample from a set of features to generate an image. Keras exposes the Conv2DTranspose layer to help with this task. Both the Conv2D (used in convolution) and Conv2DTranspose layers use the strides parameter as contraction and expansion factor in their tranformation.
 
+
+[1] https://www.pythonpodcast.com/deep-learning-patterns-and-practices-episode-317
 
