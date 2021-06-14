@@ -6,7 +6,7 @@ AI or maybe only machine learning at its root is curve fitting. All phenomenon c
 
 Choose your input space wisely (feature engineering)
 
-The other issue is that we use computers to solve the predictions which means the input must be operational. Consider NLP, the input may be a sentence and our typical models cannot really calculate using the sentence as is. So we must transform the data into vectors representing the input (create embeddings) and then feed this to our models (Q: Can a model do this work?)<sup>1</sup>
+The other issue is that we use computers to solve the predictions which means the input must be operational. Consider NLP, the input may be a sentence and our typical models cannot really calculate using the sentence as is. So we must transform the data into vectors representing the input (create embeddings) and then feed this to our models (Q: Can a model do this work?)[<sup>1</sup>](#References)
 
 
 
@@ -47,6 +47,15 @@ A generator takes input in the form of a vector of random numbers (called latent
 
 Convolution networks downsample an image to a set of features. The generator will do the opposite and upsample from a set of features to generate an image. Keras exposes the Conv2DTranspose layer to help with this task. Both the Conv2D (used in convolution) and Conv2DTranspose layers use the strides parameter as contraction and expansion factor in their tranformation.
 
+### Measuring model performance
+
+Some articles
+
+[Various ways to evaluate a machine learning model’s performance
+](https://towardsdatascience.com/various-ways-to-evaluate-a-machine-learning-models-performance-230449055f15)
+
+
+### References
 
 [1] https://www.pythonpodcast.com/deep-learning-patterns-and-practices-episode-317
 
