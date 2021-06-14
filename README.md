@@ -49,11 +49,34 @@ Convolution networks downsample an image to a set of features. The generator wil
 
 ### Measuring model performance
 
-Some articles
+| Metric          | Description|
+| ------------- |:-------------|
+|Confusion matrix ||
+|Accuracy ||
+|Precision ||
+|Recall ||
+|Specificity ||
+|F1 score ||
+|Precision-Recall or PR curve ||
+|ROC (Receiver Operating Characteristics) curve ||
+|PR vs ROC curve ||
 
-[Various ways to evaluate a machine learning model’s performance
+
+Some articles and references:
+
+ - [Precision and recall - Wikipedia](https://en.wikipedia.org/wiki/Precision_and_recall)
+
+ - [Various ways to evaluate a machine learning model’s performance
 ](https://towardsdatascience.com/various-ways-to-evaluate-a-machine-learning-models-performance-230449055f15)
 
+# End to end AI
+
+
+
+Some articles:
+
+ - [Getting machine learning to production](http://veekaybee.github.io/2020/06/09/ml-in-prod)
+ - [Detecting deforestation from satellite images](https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61)
 
 ### References
 
