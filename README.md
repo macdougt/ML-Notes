@@ -80,5 +80,5 @@ Some articles:
 
 ### References
 
-[1] https://www.pythonpodcast.com/deep-learning-patterns-and-practices-episode-317
+[1] [Exploring The Patterns And Practices For Deep Learning With Andrew Ferlitsch - Podcast.__init__ - Episode 317](https://www.pythonpodcast.com/deep-learning-patterns-and-practices-episode-317)
 
