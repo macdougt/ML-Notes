@@ -58,6 +58,7 @@ Convolution networks downsample an image to a set of features. The generator wil
 |Recall ||
 |Specificity ||
 |F1 score ||
+|F2 score<sup>2</sup> ||
 |Precision-Recall or PR curve ||
 |ROC (Receiver Operating Characteristics) curve ||
 |PR vs ROC curve ||
@@ -81,5 +82,6 @@ Some articles:
 
 ### References
 
-[1] [Exploring The Patterns And Practices For Deep Learning With Andrew Ferlitsch - Podcast.__init__ - Episode 317](https://www.pythonpodcast.com/deep-learning-patterns-and-practices-episode-317)
+1. [Exploring The Patterns And Practices For Deep Learning With Andrew Ferlitsch - Podcast.__init__ - Episode 317](https://www.pythonpodcast.com/deep-learning-patterns-and-practices-episode-317)
+1. [Detecting deforestation from satellite images](https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61)
 
