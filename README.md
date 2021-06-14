@@ -58,7 +58,7 @@ Convolution networks downsample an image to a set of features. The generator wil
 |Recall ||
 |Specificity ||
 |F1 score ||
-|F2 score<sup>2</sup> ||
+|F2 score[<sup>2</sup>](#References) ||
 |Precision-Recall or PR curve ||
 |ROC (Receiver Operating Characteristics) curve ||
 |PR vs ROC curve ||
