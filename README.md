@@ -52,9 +52,7 @@ explanability - all models are explanable but the explanation is almost impossib
 
 ### RNN (Recurrent Neural Network)
 
-### 
-
-### LSTM (Long Short-Term Memory)
+### LSTM (Long Short-Term Memory) type of RNN
 
 
 
@@ -65,11 +63,11 @@ Encoder-Decoder
 
 ### Transformer
 
-A transformer is a deep learning model that adopts the mechanism of attention, weighing the influence of different parts of the input data.
+A transformer is a deep learning model that adopts the mechanism of attention, weighing the influence of different parts of the input data. It handles  sequential input data but does not require that the data be processed in order
 
 #### Attention
 
-*Attention* is a technique that mimics cognitive attention. The effect enhances the important parts of the input data and fades out the rest -- the thought being that the network should devote more computing power on that small but important part of the data.
+[*Attention*](https://en.wikipedia.org/wiki/Attention_(machine_learning)) is a technique that mimics cognitive attention. The effect enhances the important parts of the input data and fades out the rest -- the thought being that the network should devote more computing power on that small but important part of the data.
 
 Types of attention
 
