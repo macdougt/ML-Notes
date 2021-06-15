@@ -40,6 +40,43 @@ explanability - all models are explanable but the explanation is almost impossib
 [Calculating Number of Parameters in a LSTM Unit & Layer](https://medium.com/@priyadarshi.cse/calculating-number-of-parameters-in-a-lstm-unit-layer-7e491978e1e4)
 
 
+### ANN (Artificial Neural Network)
+
+### DNN (Deep Neural Network)
+
+*The word "deep" in "deep learning" refers to the number of layers through which the data is transformed*
+
+
+
+### CNN (Convolution Neural Network)
+
+### RNN (Recurrent Neural Network)
+
+### 
+
+### LSTM (Long Short-Term Memory)
+
+
+
+
+### Sequence-to-Sequence models
+
+Encoder-Decoder
+
+### Transformer
+
+A transformer is a deep learning model that adopts the mechanism of attention, weighing the influence of different parts of the input data.
+
+#### Attention
+
+*Attention* is a technique that mimics cognitive attention. The effect enhances the important parts of the input data and fades out the rest -- the thought being that the network should devote more computing power on that small but important part of the data.
+
+Types of attention
+
+ - dot-product attention - uses the dot product between vectors to determine attention
+
+ - multi-head attention - combines several different attention mechanisms to direct the overall attention of a network or sub-network
+
 ### GAN (Generative Adversarial Network)
 
 A GAN is comprised of 2 models (a discriminator and a generator)
