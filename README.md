@@ -36,6 +36,9 @@ explanability - all models are explanable but the explanation is almost impossib
 |ReduceLROnPlateau TensorFlow callback|Reduce learning rate when a metric has stopped improving|
 |Eager evaluation/execution|Expressions are evaluated as soon as they are bound to a variable. Lazy evaluation has expressions evaluated only when a dependent expression is evaluated depending upon a defined evaluation strategy.|
 |Exploratory Data Analysis (EDA)| Used to guide in problem definition, potential solutions and preprocessing steps reuquired before training a model|
+|One-shot learning|Learns information about object categories from one, or only a few, training samples|
+|||
+
 
 [Calculating Number of Parameters in a LSTM Unit & Layer](https://medium.com/@priyadarshi.cse/calculating-number-of-parameters-in-a-lstm-unit-layer-7e491978e1e4)
 
