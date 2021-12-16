@@ -12,7 +12,18 @@ The other issue is that we use computers to solve the predictions which means th
 
 explanability - all models are explanable but the explanation is almost impossible to understand.
 
-
+### Aspects
+ - Get data, maybe synthesize
+ - Annotate
+ - Clean
+ - Augment
+ - Create embeddings with known solutions
+ - Visualize embeddings/datasets for review/validation
+ - Training
+ - Inference/prediction
+ - Storage of data and/or results (versioning?)
+ - Compression of models
+ - Deployment
 
 
 ### Terms
