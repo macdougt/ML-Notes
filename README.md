@@ -19,6 +19,7 @@ explanability - all models are explanable but the explanation is almost impossib
  - Augment
  - Create embeddings with known solutions
  - Visualize embeddings/datasets for review/validation
+ - Apply transforms to reduce information while maintaining its value (by reducing dimension, using feature scaling and selection)
  - Training
  - Inference/prediction
  - Storage of data and/or results (versioning?)
