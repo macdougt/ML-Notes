@@ -91,6 +91,14 @@ Encoder-Decoder
 
 A transformer is a deep learning model that adopts the mechanism of attention, weighing the influence of different parts of the input data. It handles  sequential input data but does not require that the data be processed in order
 
+#### Encoder
+
+Encoding is used to transform input into vectors (AKA embeddings or feature vectors). It uses self attention and is birectional
+
+#### Decoder
+
+Decoding is used to transform...TBD
+
 #### Attention
 
 [*Attention*](https://en.wikipedia.org/wiki/Attention_(machine_learning)) is a technique that mimics cognitive attention. The effect enhances the important parts of the input data and fades out the rest -- the thought being that the network should devote more computing power on that small but important part of the data.
