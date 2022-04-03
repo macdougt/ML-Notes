@@ -69,6 +69,17 @@ explanability - all models are explanable but the explanation is almost impossib
 
 ### LSTM (Long Short-Term Memory) type of RNN
 
+### Transfer learning
+
+The human brain may use transfer learning in many instances and human transfer learning may help with the understanding of AI transfer learning. Suppose a human learns to play baseball or golf which uses a similar motion for striking a ball. In the case of golf, the ball is stationary (well, hopefully) and a golfer swings a club striking the ball from the ground with the intent of landing it in a better position to send into the hole in the fewest number of strokes. A baseball player swings a bat at a moving ball attempting to strike it avoiding the other team's fielders so that the ball cannot be caught and giving the player enough to run to a base before the ball is thrown to a player "covering" that base. 
+
+If a golfer or baseball player learns to play cricket, they can leverage the "experience" (i.e. neural pathways) that represent the skill to strike a ball in order to strike a ball in cricket that is also moving. Someone who has learned these types of skills will probably not learn it as quickly because they are starting from scratch. The other aspect of this is that the closer an existing skill is to a desired new skill, the less time it will take for someone to "pick up" the new skill.
+
+As an anology, a model that is well trained to perform a specific task can be used to help develop another model to perform a similar task. A model that can differentiate a dog from a cat can be leveraged to construct a model to differentiate a car from a computer.
+
+
+
+
 
 
 
