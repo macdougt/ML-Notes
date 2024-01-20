@@ -93,11 +93,11 @@ A transformer is a deep learning model that adopts the mechanism of attention, w
 
 #### Encoder
 
-Encoding is used to transform input into vectors (AKA embeddings or feature vectors). It uses self attention and is birectional
+Encoding processes the input data (like a sentence in a source language) and compresses the information into a context vector (also known as the hidden state). This vector aims to encapsulate the information from the input necessary for the task at hand.
 
 #### Decoder
 
-Decoding is used to transform...TBD
+Decoding takes the context vector created by the encoder and generate the output data (like a sentence in a target language). It translates the condensed information back into a usable format.
 
 #### Attention
 
